@@ -1,1 +1,12 @@
 v45
+
+
+git init
+git add README.md
+git config --global user.email "karimisfine@gmail.com"
+git config --global user.name "karim600001"
+git commit -m "first commit"
+git remote add origin https://github.com/karim60001/karimNGdeploy.git
+git add .
+git commit -m "all source code"
+git push -u origin main
