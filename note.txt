@@ -10,3 +10,12 @@ git remote add origin https://github.com/karim60001/karimNGdeploy.git
 git add .
 git commit -m "all source code"
 git push -u origin main
+
+npm install -g angular-cli-ghpages
+
+ng build --base-href "https://karim60001.github.io/karimNGdeploy/"
+or
+ng build --base-href=/karim60001.github.io/karimNGdeploy 
+
+ngh [may give error because of search for index.html file ]
+ngh --dir dist/karimngshop
